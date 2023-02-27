@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <link rel="stylesheet" href="stilo.css">
+    <title>CV Luis Paulovich</title>
+</head>
+
+<body>
+    <!--SECCION INICIO--> 
+<section id="inicio"> 
+    <div class="contenido"> 
+      <header>
+        <div class="contenido-header">
+            <h1> (L&P)  </h1>
+            <nav id="nav" class="">
+                <ul id="links">
+                    <li><a href="#inicio"class="selecionado" onclick="selecionar (this)">INICIO</a></a></li>
+                    <li><a href="#sobremi" onclick="selecionar (this)">SOBRE MI</a></a></li>
+                    <li><a href="#servicios" onclick="selecionar (this)">SERVICIOS </a></a></li>
+                    <li><a href="#portfolio" onclick="selecionar (this)">PORTFOLIO</a></a></li>
+                    <li><a href="#contacto" onclick="selecionar (this)">CONTACTO</a></a></li>
+                </ul>
+             </nav>
+
+
+             <!--icono del menu responsive-->
+             <div id="icono-nav" onclick="responsiveMenu()">
+                <i class="fa-solid fa-bars"></i>
+             </div>
+
+             <!--Iconos de las Redes sociales -->
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i>
+                <a href="#"><i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+    </header>
+    <div class="presentacion">
+        <p class="bienvenida">Bienvenidos</p>
+        <h2>Soy <Span>Luis Paulovich</Span>, Desarrollador Web</h2>
+        <p class="descripcion"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae saepe asperiores ad laboriosam quisquam iusto quia nam ducimus laborum deserunt. Praesentium repellendus aperiam numquam! Debitis ratione consequuntur sit molestiae tempora?</p>
+        <a href="#portfolio">Ir a Portafolio</a>
+    </div>
+</div>
+</section>
+<!-- SECCION SOBRE MI-->
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="img/foto.jpg"  alt="">
+    </div>
+    <div class="sobremi">
+        <p class="titulo-seccion">Sobre Mi</p>        </p>
+        <h2> Hola, soy <span> Luis Paulovich</span></h2>
+        <h3>Desarrollador Web</h3>
+        <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, incidunt ipsam tenetur cupiditate</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <a href="#">Descargar CV</a>
+    </div>
+</section>
+
+<!--SECCION SERVICIOS-->
+<section id="servicios">
+    <h3 class="titulo seccion"> MIS SERVICIOS</h3>
+    <div class="fila">
+     <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Diseños de Sitios Web</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+        </ul>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+     </div>   
+     <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Programacion PHP</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+        </ul>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+     </div>  
+     <div class="servicio">
+        <span class="icono"><i class="fa-solid fa-code"></i></span>
+        <h4>Posicionamiento SEO</h4>
+        <hr>
+        <ul class="servicios-tag">
+            <li>Web</li>
+            <li>Graphic</li>
+            <li>SEO</li>
+        </ul>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+     </div>  
+    </div>
+    <div class="fila">
+        <div class="servicio">
+           <span class="icono"><i class="fa-solid fa-code"></i></span>
+           <h4>Alojamientos de sitios</h4>
+           <hr>
+           <ul class="servicios-tag">
+               <li>Web</li>
+               <li>Graphic</li>
+               <li>SEO</li>
+           </ul>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+        </div>   
+        <div class="servicio">
+           <span class="icono"><i class="fa-solid fa-code"></i></span>
+           <h4>Consultor Externo</h4>
+           <hr>
+           <ul class="servicios-tag">
+               <li>Web</li>
+               <li>Graphic</li>
+               <li>SEO</li>
+           </ul>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+        </div>  
+        <div class="servicio">
+           <span class="icono"><i class="fa-solid fa-code"></i></span>
+           <h4>Diseñador Gráfico</h4>
+           <hr>
+           <ul class="servicios-tag">
+               <li>Web</li>
+               <li>Graphic</li>
+               <li>SEO</li>
+           </ul>
+           <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quibusdam quisquam officia !</p>
+        </div>  
+       </div>
+</section>
+<!--SECCION HABILIDADES-->
+<div class="contenedor-skills" id="skills">
+    <h3> HABILIDADES</h3>
+    <div class="skill">
+        <div class="Info">
+            <p><span class="lista"></span>Html & Css</p>
+            <span class="porcentaje">75%</span>
+        </div>
+            <div class="barra">
+            <div id="html" class="barra-progreso1"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="Info">
+            <p><span class="lista"></span>Javascript</p>
+            <span class="porcentaje">80%</span>
+        </div>
+        <div class="barra">
+            <div id="Js" class="barra-progreso2"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="Info">
+            <p><span class="lista"></span>Base de datos</p>
+            <span class="porcentaje">80%</span>
+        </div>
+            <div class="barra">
+            <div id="bd" class="barra-progreso3"></div>
+        </div>
+    </div>
+
+   
+    </div>
+</div>
+
+<!-- SECCION PORTAFOLIO-->
+<section id="portfolio">
+    <h3 class="titulo-seccion"> MIS PROYECTOS</h3>
+    <div class="fila"> 
+    <div class="proyecto">
+    <div class="overlay"></div>
+    <img src="img/proyecto4.jpg" alt="">
+    <div class="info">
+        <h4>Descripcion del Proyecto</h4>
+        <p>Diseño Web</p>
+    </div>
+    </div>
+    <div class="proyecto">
+    <div class="overlay"></div>
+    <img src="img/proyecto1.jpg" alt="">
+    <div class="info">
+        <h4>Descripcion del Proyecto</h4>
+        <p>Diseño Web</p>
+    </div>
+    </div>
+<div class="proyecto">
+    <div class="overlay"></div>
+    <img src="img/proyecto2.jpg" alt="">
+    <div class="info">
+        <h4>Descripcion del Proyecto</h4>
+        <p>Diseño Web</p>
+    </div>
+</div>
+   
+    <div class="fila">
+    <div class="proyecto">
+        <div class="overlay"></div>
+        <img src="img/proyecto3.jpg" alt="">
+        <div class="info">
+            <h4>Descripcion del Proyecto</h4>
+            <p>Diseño Web</p>
+        </div>
+            </div>
+        <div class="proyecto">
+            <div class="overlay"></div>
+            <img src="img/proyecto5.jpg" alt="">
+            <div class="info">
+                <h4>Descripcion del Proyecto</h4>
+                <p>Diseño Web</p>
+            </div>
+            </div>
+        </div>
+
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del Proyecto</h4>
+                    <p>Diseño Web</p>
+                </div>
+                </div>
+            </div>
+                               
+    </section>
+
+<!--SECCION CONTACTO-->
+<section id="contacto">
+    <h3 class="titulo-secion"> Contactanos ahora</h3>
+ 
+    <div class="contenedor-form">
+        <form action="">
+            <div class="fila mitad">
+                <input type="text" placeholder="Nombre Completo" class="Input-mitad">
+                <input type="text" placeholder="Direccion de Email" class="Input-mitad">
+            </div>
+            <div class="fila">
+                <input type="text" placeholder="Tema" class="Input-full">
+            </div>
+            <div class="fila">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje ...." class="input-full"></textarea>
+            </div>
+            <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+        </form>
+    </div>
+</section>
+
+<!--SECCION FOOTER-->
+<footer>
+    <a> Todos los derechos reservados - 2023</a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i>
+        <a href="#"><i class="fa-brands fa-linkedin"></i>
+    </div>
+</footer>
+
+<script src="script .js"></script>
+</body>
+</html>
